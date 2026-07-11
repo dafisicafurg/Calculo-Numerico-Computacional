@@ -1,5 +1,5 @@
 # Cálculo Numérico Computacional
-## Repositório destinado as disciplinas de Cálculo Numérico Computacional
+Repositório destinado as disciplinas de Cálculo Numérico Computacional
 
 
 ### Joice Marques livros e etc. disponibilizados:
