@@ -1,8 +1,7 @@
-# Calculo-Numerico-Computacional
+# Cálculo Numérico Computacional
 
-Obs! 
 
-Joice Marques livros e etc. disponibilizados:
+## Joice Marques livros e etc. disponibilizados:
 
 Cálculo Numérico livro python --> https://www.ufrgs.br/reamat/CalculoNumerico/livro-py/livro-py.pdf
 
