@@ -1,4 +1,5 @@
 # Cálculo Numérico Computacional
+Repositório destinado as disciplinas de Física
 
 
 ### Joice Marques livros e etc. disponibilizados:
