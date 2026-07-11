@@ -1,0 +1,10 @@
+function [ALPHA] = criteriodaslinhas(A)
+  n=size(A)
+  for i=1:n
+    for j=1:n
+        soma(i)=sum(A(i,:)) - A(i,i)
+        alfa(i)= soma(i)/A(i,i)
+        ALPHA=max(alfa(i))
+    endfor
+  endfor
+ endfunction
