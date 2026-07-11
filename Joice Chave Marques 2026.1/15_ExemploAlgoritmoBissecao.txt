@@ -1,0 +1,16 @@
+format long
+%f=@(x) cos(x)-x;
+%f=@(x) sqrt(x)-cos(x);
+f=@(x) x^3-9*x+3
+%f=@(x)  exp(x)+2^(-x)+2*cos(x)-6
+%f=@(x) log(x-1) + cos(x-1)
+%f=@(x) cos(x)+log(x)+x
+%f=@(x) 2*x*cos(2*x)-(x+1)^2 
+%f=@(x) (x-2)^2-log(x)
+%f=@(x) 3*(x+1)*(x-0.5)*(x-1)
+%f=@(x) (cos(x))^3 - sin(x)
+%V=6; R=330; k=1.38*10^-23;T=300; q=1.602*10^-19; Is=2*10^-3;
+%f=@(x) V- R*x -((k*T)/q)*log((x/Is)+1)
+%fplot(f,[-10 10]);xlabel("x(corrente elétrica)")
+%x1=falsaposicao(f,-1,1,10^-15)
+x2=bissecao(f,0,1,10)
