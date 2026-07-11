@@ -1,0 +1,16 @@
+function [r] = Lagrange(m,x,y,z) %(número de pontos, abcissas, ordenadas, valor a interpolar)
+  r=0;
+  for i=1:m
+    c=1;
+    d=1;
+    for j=1:m
+      if i~=j
+        c=c*(z-x(j)); %numerador
+        d=d*(x(i)-x(j)); %denominador
+      endif 
+    endfor
+    r=r+y(i)*c/d;
+  endfor
+  display('O polinômio interpolador é ')
+  display('O valor de z interpolado é r')
+endfunction
